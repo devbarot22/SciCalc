@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="An Scientific Calculator With Guidance">
+    <link rel="stylesheet" href="./sccalc.css">
+    <title>Scientific Calculator</title>
+</head>
+
+<body>
+    <div class="p-2">
+        <h1 class="head">Scientific Calculator</h1>
+        <div class="text-center">
+            <h4 class="head0">This Calculator is built using HTML 5, CSS 3, Bootstrap & Javascript.</h4>
+        </div>
+        <div id="calcu">
+            <div>
+                <div><input type="text" title="input" class="input"></div>
+                <div><input type="text" title="output" class="output"></div>
+            </div>
+            <div>
+                <div class="raw raw-first">
+                    <button class="button frb-1">Sin</button>
+                    <button class="button frb-2">cos</button>
+                    <button class="button frb-3">tan</button>
+                    <input type="radio" id="frb-deg0" name="button" title="selector" value="1">
+                    <label for="degree" id="frb-deg1">Deg</label>
+                    <input type="Radio" id="frb-rad0" name="button" title="selector" value="1">
+                    <label for="Radian" id="frb-rad1">Rad</label>
+                </div>
+                <div class="raw">
+                    <button class="button">Sin<sup>-1</sup></button>
+                    <button class="button">cos<sup>-1</sup></button>
+                    <button class="button">tan<sup>-1</sup></button>
+                    <button class="button">π</button>
+                    <button class="button">e</button>
+                </div>
+                <div class="raw">
+                    <button class="button">X<sup>y</sup></button>
+                    <button class="button">X<sup>3</sup></button>
+                    <button class="button">X<sup>2</sup></button>
+                    <button class="button">e<sup>x</sup></button>
+                    <button class="button">10<sup>x</sup></button>
+                </div>
+                <div class="raw">
+                    <button class="button"><sup>y</sup>√x</button>
+                    <button class="button"><sup>3</sup>√x</button>
+                    <button class="button">√x</button>
+                    <button class="button">LN</button>
+                    <button class="button">log</button>
+                </div>
+                <div class="raw">
+                    <button class="button">(</button>
+                    <button class="button">)</button>
+                    <button class="button">1/x</button>
+                    <button class="button">%</button>
+                    <button class="button">n!</button>
+                </div>
+            </div>
+            <div>
+                <div class="raw">
+                    <button class="button">7</button>
+                    <button class="button">8</button>
+                    <button class="button">9</button>
+                    <span>
+                        <button class="button">+</button>
+                        <button class="button">Back</button>
+                    </span>
+                </div>
+                <div class="raw">
+                    <button class="button">4</button>
+                    <button class="button">5</button>
+                    <button class="button">6</button>
+                    <button class="button">-</button>
+                    <button class="button">Ans</button>
+                </div>
+                <div class="raw">
+                    <button class="button">1</button>
+                    <button class="button">2</button>
+                    <button class="button">3</button>
+                    <button class="button">x</button>
+                    <button class="button">M+</button>
+                </div>
+                <div class="raw">
+                    <button class="button">0</button>
+                    <button class="button">.</button>
+                    <button class="button">EXP</button>
+                    <button class="button">÷</button>
+                    <button class="button">M-</button>
+                </div>
+                <div class="raw">
+                    <button class="button">±</button>
+                    <button class="button">RND</button>
+                    <button class="button">AC</button>
+                    <button class="button">=</button>
+                    <button class="button">MR</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----------------------------Scitific Calculator Explaination ----------------------------->
+
+    <div class="container-fluid pt-5">
+        <div>
+            <h1 class="head1">How to Operate a Scientific Calculator:Basic Functions Explained</h1>
+            <p class="desc">how to master the basics of using a scientific calculator? This article will cover the basic
+                operation of the calculator, using functions, and graphing. There are a lot of features to learn about,
+                but getting the basics down will allow you to access pretty much any function! Scientific calculators
+                are must-have tools for math classes like Algebra, Trigonometry, and Geometry. Compared to basic
+                calculators, scientific calculators have more advanced math operations.</p>
+
+
+
+            <!------------#1-basics of calculator------------->
+
+
+
+
+        </div>
+        <div id="learn-cal-1">
+            <h1 class="head1">1.Understanding Calculator Basics</h1>
+            <div>
+                <ul>
+                    <li class="head">Find the important functions</li>
+                </ul>
+
+                <p class="desc"> There are several functions on the calculator that will be essential for Algebra, Trigonometry,
+                    Geometry, Calculus, and more. Find the following functions on your calculator:</p>
+                <div>
+                    <table id="operators-table">
+                        <tr>
+                            <th>Operation</th>
+                            <th>Function</th>
+                        </tr>
+                        <tr>
+                            <td>&#43</td>
+                            <td>Addition</td>
+                        </tr>
+                        <tr>
+                            <td>&#8722</td>
+                            <td>Subtraction</td>
+                        </tr>
+                        <tr>
+                            <td>&#215</td>
+                            <td>multiplication</td>
+                        </tr>
+                        <tr>
+                            <td>&#247</td>
+                            <td>Division</td>
+                        </tr>
+                        <tr>
+                            <td><sup>&#8743;</sup></td>
+                            <td>Raise to the power of</td>
+                        </tr>
+                        <tr>
+                            <td>Y<sup>x</sup></td>
+                            <td>Y to the power of x</td>
+                        </tr>
+                        <tr>
+                            <td>&#8730 or Sqrt</td>
+                            <td>Square root</td>
+                        </tr>
+                        <tr>
+                            <td>e<sup>x</sup></td>
+                            <td>Exponential</td>
+                        </tr>
+                        <tr>
+                            <td>sin</td>
+                            <td>Sin function</td>
+                        </tr>
+                        <tr>
+                            <td>sin<sup>-1</sup></td>
+                            <td>Inverse sine function</td>
+                        </tr>
+                        <tr>
+                            <td>cos</td>
+                            <td>Cosine function</td>
+                        </tr>
+                        <tr>
+                            <td>cos<sup>-1</sup></td>
+                            <td>Inverse cosine function</td>
+                        </tr>
+                        <tr>
+                            <td>tan</td>
+                            <td>Tangent function</td>
+                        </tr>
+                        <tr>
+                            <td>tan<sup>-1</sup></td>
+                            <td>Inverse tangent function</td>
+                        </tr>
+                        <tr>
+                            <td>ln</td>
+                            <td>Log to the base of e</td>
+                        </tr>
+                        <tr>
+                            <td>log</td>
+                            <td>Log base 10</td>
+                        </tr>
+                        <tr>
+                            <td>(-) or neg</td>
+                            <td>Denotes negative number</td>
+                        </tr>
+                        <tr>
+                            <td>()</td>
+                            <td>Parentheses for denoting order of operation</td>
+                        </tr>
+                        <tr>
+                            <td>&#8508</td>
+                            <td>Inserts pi</td>
+                        </tr>
+                        <tr>
+                            <td>Mode</td>
+                            <td>Switches between degrees and radians</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div>
+                <ul>
+                    <li class="head">Familiarize yourself with secondary functions. </li>
+                </ul>
+                <p class="desc">While the bulk of the most common functions will have their own keys (e.g., the SIN key), things like
+                    inverse functions (e.g., SIN-1) or less-common functions (e.g., the square root √) will be listed
+                    above other keys.
+
+                <ul>
+                    <li>
+                        calculators have a "Shift" key instead of a "2ND" key.</li>
+                    <li>In many cases, the color of the "Shift" or "2ND" key will match the color of the function's
+                        text.</li>
+                </ul>
+                </p>
+            </div>
+            <div>
+                <ul>
+                    <li class="head">Always close your parentheses. </li>
+                </ul>
+                <p class="desc">Whenever you type a left parenthesis, you must close it with a right one; similarly, if you type a
+                    total of five left parentheses, you'll have to close them with five right ones. </p>
+                <ul>
+                    <li>This is important when entering larger calculations, as leaving out a parenthesis can cause the
+                        equation to return a far different answer than you should have.</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="head">Switch between degrees and radians with the MODE key.</li>
+                </ul>
+                <p class="desc"> You can change between displaying values in terms of degrees (fractions of 360) or radians (decimals
+                    using pi as the basis) by pressing the MODE key, using the arrow keys to select RADIANS or DEGREES,
+                    and pressing the ENTER button. </p>
+                <ul>
+                    <li>This is important when performing Trigonometry calculations. If you notice that your equations
+                        are returning decimal values instead of degrees (or vice versa), you'll need to change this
+                        setting.</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="head"> Learn how to save and restore.</li>
+                </ul>
+                <p class="desc">Saving your results and pulling them back later is an essential skill for dealing with longer
+                    problems.
+                    There are a couple of different ways to use stored information: </p>
+                <ul>
+                    <li>After completing a calculation, the last answer is automatically stored. You can perform another
+                        calculation on that answer by tying in the next operation. For example, if you just entered 2^4
+                        and
+                        pressed ENTER (which equals 16), typing in -10 and pressing ENTER would subtract 10 from the
+                        solution (meaning it would be 16 - 10).</li>
+                    <li>Use the Answer function to recall the last displayed answer to an equation. When you press the
+                        Ans
+                        key, the last answer from the previous calculation will be added into your equation.</li>
+                    <li>Press STO after retrieving your preferred answer, press ALPHA, select a letter, and press ENTER.
+                        You
+                        can then use that letter as a placeholder for the answer you stored.[2] X R</li>
+                    <li>Some scientific calculators allow you to retrieve previous answers by pressing the up arrow
+                        button.
+                        When you find the answer you were looking for, press ENTER to place that number in your current
+                        equation. Note that there’s usually a limit to how many previous answers are stored, so you can
+                        only
+                        use this method for recent calculations.</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="head">Clear the screen.</li>
+                </ul>
+                <p class="desc"> If you ever need to exit a menu or remove several lines' worth of equations from the calculator
+                    screen, you can press the AC or CLEAR button to do so. </p>
+                <ul>
+                    <li>You can also press the 2ND or Shift key and then press whichever button has "QUIT" listed over
+                        it (in most cases, this is the MODE key).</li>
+                </ul>
+            </div>
+        </div>
+
+
+
+        <!---------------#2-basics of calculator----------------->
+
+
+
+
+
+
+        <div id="learn-cal-2">
+            <h1 class="head1">2.Practicing functions</h1>
+            <div>
+                <ul>
+                    <li class="head">Try a simple square root. </li>
+                </ul>
+                <p class="desc">Test out the button order on an easy and quick problem. For example, you might try taking the square
+                    root of 9; you should already know that the answer will be 3, so this is a great tip to use in the
+                    middle of a test if you forget which order you're supposed to be pressing buttons: </p>
+                <ul>
+                    <li>Find the square root (√) symbol.</li>
+                    <li>Either press the square root key or press the SHIFT or 2ND button and then press its key.</li>
+                    <li>Press 9</li>
+                    <li>Press ENTER or = to solve the equation.</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="head">Take the power of a number.</li>
+                </ul>
+                <p class="desc">In most cases, you'll do this by entering the first number, pressing the carrot (^) button, and
+                    entering the number to which you want to raise the first number. </p>
+                <ul>
+                    <li>For example, to calculate 22, you would type in 2^2 and then press ENTER or =.</li>
+                    <li>To ensure the number order is correct, try performing a simple test, such as 23. If you get 8 as
+                        the answer, then you did it in the right order. If you got 9, then you actually did 32.</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="head">Practice the trigonometry functions.</li>
+                </ul>
+                <p class="desc">When you are using the SIN, COS, or TAN functions, you will have to keep in mind two different
+                    things: the order of the button presses, and radians versus degrees. These scientific calculator
+                    functions are commonly used in Algebra. </p>
+                <ul>
+                    <li>Perform a simple SIN function with an easy to remember answer. For example, the sine of 30° is
+                        0.5.</li>
+                    <li>On a scientific calculator, to find the sine of 30° for example, you type in 30, then press SIN
+                        to get 0.5. If you got a different answer, it probably means that your scientific calculator is
+                        not in degree mode. To put it in degree mode, look for a button that says DRG which stands for
+                        Degrees, Radians, and Gradients. If you push the DRG button several times, you will see that the
+                        mode in your view screen will change between degrees, radians, and gradients. Push the DRG
+                        button until you see degrees or DEG indicated in the view screen. Once you have degrees in the
+                        view screen, then type in 30 then press SIN and you should get 0.5.</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="head"> Practice entering longer equations.</li>
+                </ul>
+                <p class="desc">Things can get a bit more complicated when you start entering longer equations into your calculator.
+                    You will need to take order into consideration, and will often make use of the () keys. Try entering
+                    the following equation into your calculator: 3^4/(3+(25/3+4*(-(1^2))))</p>
+                <ul>
+                    <li>Note how many parentheses are necessary to keep the formula intact. Proper parentheses use is
+                        essential to successfully using the calculator.</li>
+                    <li>Most calculators follow PEMDAS (parenthesis, exponent, multiplication, division, addition,
+                        subtraction), but using parentheses is the most sure way to correctly calculate the equation.
+                    </li>
+                    <li>After you're done calculating for the day, you can try downloading games onto your calculator.
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="head"> Look for complex functions in the MATH menu. </li>
+                </ul>
+                <p class="desc">While things like SIN, square roots, inverse exponents, and pi are often either represented by keys
+                    or secondary text above keys, you can find more advanced functions (e.g., factorials) in the MATH
+                    menu. To use the MATH menu, do the following: </p>
+                <ul>
+                    <li>Press the MATH button.</li>
+                    <li>Use the up and down arrows to scroll up and down through a category of equations.</li>
+                    <li>Use the right and left arrows to scroll right and left through the different categories.</li>
+                    <li>Press ENTER or = to select an equation, then enter the number or formula to which you want to
+                        apply the equation</li>
+                    <li>Press ENTER or = to calculate the whole equation. </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <!---------------#3-basics of Calculator------------------->
+
+
+
+
+
+        <div>
+            <div id="learn-cal-3">
+                <h1 class="head1">3.Graphing an Equation</h1>
+                <div>
+                    <ul>
+                        <li class="head"> Understand that not all scientific calculators allow graphing.</li>
+                    </ul>
+                    <p class="desc">If your calculator doesn't have a Y= button on it, you most likely can't use the calculator
+                        to
+                        graph a standard "y=mx+b" (or similar) plot.[3]</p>
+                    <ul>
+                        <li>You can check your calculator's documentation to determine whether or not it supports
+                            graphing, or you can just look for the Y= button near the top of the calculator's
+                            keypad.
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li class="head">Press the "Y=" button.</li>
+                    </ul>
+                    <p class="desc">It's typically at the top of the calculator's keypad. Doing so brings up a list of Y values
+                        (e.g., "Y1", "Y2", etc.) which represent different equations.</p>
+                </div>
+                <div>
+                    <ul>
+                        <li class="head">Enter your equation.</li>
+                    </ul>
+                    <p class="desc">Type in the equation (e.g., 3x+4), then press ENTER or =. You should see the equation appear to
+                        the right of the "Y1" value. </p>
+                    <ul>
+                        <li>For the X part of the equation, you'll press the X,T,Θ,n key (or similar).</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li class="head">Press GRAPH.</li>
+                    </ul>
+                    <p class="desc">This button is usually at the top of the calculator's keypad.</p>
+                </div>
+                <div>
+                    <ul>
+                        <li class="head">Review the results. </li>
+                    </ul>
+                    <p class="desc">
+                        After a moment, you should see the graph's line appear on-screen. This will show you the curve
+                        of the graph and its general position.
+                    </p>
+                    <ul>
+                        <li>You can view the graph's individual points by pressing the TABLE (or Shift/2ND and then
+                            GRAPH) button and then scrolling through the resulting table.</li>
+                        <li>You can also use the graphing function to find minimum and maximum points on your curve</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li class="head">Press WINDOW to change the graph settings.</li>
+                    </ul>
+                    <p class="desc">This will open an options menu where you can alter the x and y minimum and maximum values, change
+                        the scale of the axes, and more. </p>
+                    <ul>
+                        <li>You can press ZOOM to see a list of automatic zoom options. For example, ZoomFit will adjust
+                            the graph to show the entire curve.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!---------------#3-End of Basics of calculator--------------->
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

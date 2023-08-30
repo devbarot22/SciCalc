@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Lora:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Fira+Sans:wght@300&family=Major+Mono+Display&family=Playfair+Display:wght@500&family=Roboto+Mono:ital@1&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(12, 182, 12);
+  color: aliceblue;
+}
+
+.p-2{
+  height: 100dvh;
+  width: 100dvw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+}
+
+.head{
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+.head0{
+  text-align: center;
+}
+
+#calcu{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2vh;
+}
+
+.input, .output{
+  margin-bottom: 2px;
+  width: 100%;
+  border: 2px thin;
+  border-radius: 5px;
+  height: 30px;
+  text-align: end;
+  padding-right: 10px;
+}
+
+.button{
+  width: 50px;
+  height: 40px;
+  margin-bottom: 3px; 
+  border-radius: 5px;
+  border: 2px solid;
+  background-color: rgb(124, 246, 113);
+  color: black;
+}
+
+#frb-deg0 {
+  margin-left: 1px;
+}
+
+
+
+/*Scientific calculator explanation */
+
+.container > h1,
+p,
+li {
+  font-size: larger;
+  font-weight: normal;
+  font-family: 'Playfair Display', serif;
+  padding: 1% 4%;
+}
+
+.head, .head1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: larger;
+  font-weight: bolder;
+  padding: 2% 4%;
+}
+
+#operators-table {
+  border-collapse: collapse;
+  text-align: left;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  margin: 20px 40px;
+}
+
+td,
+th {
+  font-size: larger;
+  border: solid 1px;
+  padding: 2vh 2vw;
+}
